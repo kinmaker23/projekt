@@ -1,4 +1,4 @@
-1. git add plik.txt
+1. git add plik.txt ( add . = dodaj wszystko)
 2. git commit -m "komentarz"
 3. git remote -v
 4. git psh origin master
