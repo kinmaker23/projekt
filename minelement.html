@@ -1,0 +1,16 @@
+<script>
+    function znajdzMin(tablica){
+        let najmniejszyElement = tablica[0]
+        let n = tablica.length;
+        for (let i = 1; i < n; i++){
+            if (tablica[i] < najmniejszyElement) {
+                najmniejszyElement = tablica[i]
+            }
+        }
+        return najmniejszyElement;
+    }
+
+    const mojaTablica = [1,2,55,24,9,3];
+    const min = znajdzMin(mojaTablica);
+    console.log("Najmniejszy element to:", min);
+</script>
